@@ -28,7 +28,7 @@ export const links = [
     },
     {
         title: "Core Team",
-        href: "https://instagram.com/gingerrr.psd",
+        href: "/",
         target: "_blank"
     },
     {
