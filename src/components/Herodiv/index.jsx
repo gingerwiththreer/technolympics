@@ -2,7 +2,6 @@
 import styles from './style.module.scss';
 
 import React from 'react'
-import { Player } from 'video-react';
 // import '~video-react/dist/video-react.css'; // import css
 
 
