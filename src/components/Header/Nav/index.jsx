@@ -8,23 +8,19 @@ export default function index() {
     <div className={styles.nav}>
        <div className={styles.body}>
         {
-            links.map( (link) => {
+            links.map(link => {
                 const { title, href, target } = link;
                 return (
-                    <div className={styles.linkContainer}>
+                    <div key={title || href} className={styles.linkContainer}>
                         <a
-                        
                           href={href}
                           target={target}
-                        //   custom={i}
                         //   variants={perspective}
                         //   initial="initial"
                         //   animate="enter"
                         //   exit="exit"
                         >
-                            
                             {title}
-                            
                         </a>
                     </div>
                 )
@@ -33,18 +29,13 @@ export default function index() {
        </div>
        <div className={styles.footer}>
             {
-                footerLinks.map( (link) => {
+                footerLinks.map(link => {
                     const { title, href, target } = link;
                     return (
                         <a 
                             href={href}
                             target={target}
-                            // variants={slideIn}
-                            // custom={i} 
-                            // initial="initial"
-                            // animate="enter"
-                            // exit="exit"
-                            // key={`f_${i}`}
+                            key={title || href}
                         >
                             {title}
                         </a>
