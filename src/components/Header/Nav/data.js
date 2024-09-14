@@ -51,7 +51,7 @@ export const footerLinks = [
     
     {
         title: "Instagram",
-        href: "https://instagram.com/gingerrr.psd",
+        href: "https://www.instagram.com/technolympicscsn/",
         target: "_blank"
     },
     {
