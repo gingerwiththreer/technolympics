@@ -1,0 +1,16 @@
+.header{
+    position: fixed;
+    right: 10px;
+    top: 20px;
+    z-index: 4;
+    .menu{
+        // width: 384;
+        // height: 520px;
+        background-color:#2d292f;
+        background-image: url("https://pbs.twimg.com/media/GWeKTq5WwAA5M40?format=jpg&name=medium");
+        border-radius: 15px;
+        border-color: white;
+        position: relative;
+    }
+    
+}
