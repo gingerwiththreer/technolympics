@@ -16,10 +16,12 @@ import React from 'react';
 function Header2() {
     return(
         <div className={styles.header2}>
-            <a href='localhost:3000'><img className={styles.headimg} src="https://pbs.twimg.com/media/GWTfb4bXAAARg4n?format=png&name=large" /></a>
-            <span className={styles.timer}>
+            <img className={styles.headimg} src="https://pbs.twimg.com/media/GWTfb4bXAAARg4n?format=png&name=large" />
+            <img className={styles.imgphone} src="https://pbs.twimg.com/media/GXgRJWsWoAAPtX0?format=png&name=medium" />
+
+            <div className={styles.timer}>
                 <Countdown targetDate="2024-10-22T00:00:00" /> 
-            </span>
+            </div>
             <h1 className={styles.date}>
                 22nd October 2024
             </h1>

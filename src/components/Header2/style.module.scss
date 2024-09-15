@@ -7,51 +7,84 @@
     font-family: timer;
     src: url(./Helvetica.ttf);
 }
-.header2 {
-    display: flex;
-    grid-template-columns: auto auto;
-    font-family: 'Regular';
-    background-color: #000000;
-    position: relative;
-    width: 100%; 
-    height: 83px; 
-    z-index: 0;
-    top: 0px;
-    left: 0;
-    .headimg{
-        width: 400px;
-    }
 
-    .timer{
-        font-family: timer;
-        opacity: 80%;
+@media (min-width: 1024px) {
+    .header2 {
+        display: flex;
+        grid-template-columns: auto auto;
+        font-family: 'Regular';
+        background-color: #000000;
         position: relative;
-        color: white;
-        top: 30px;
-        left: 450px;
-        font-size: 10px;
+        width: 100%;
+        height: 83px;
+        z-index: 0;
+        top: 0px;
+        left: 0;
+
+        .headimg {
+            height: 120px;
+        }
+        .imgphone {
+            opacity: 0%;
+        }
+        .timer {
+            font-family: 'Regular';
+            opacity: 100%;
+            position: relative;
+            color: white;
+            top: 30px;
+            left: 450px;
+            font-size: 10px;
+        }
+
+
+        .date {
+            position: relative;
+            color: rgba(239, 230, 230, 0.811);
+            font-family: timer;
+            top: 20px;
+            left: -30px;
+            font-size: 20px;
+        }
+
+
+        .headimg,
+        .timer,
+        .date {
+            padding: 0px;
+            position: relative;
+
+
+        }
+
+
+
+        // z-index: 1000; /* Ensure the navbar stays on top of other elements */
+        // padding: 0px; /* Add some horizontal padding */
     }
+}
 
 
-    .date{
-        position: relative;
-        color: rgba(239, 230, 230, 0.811);
-        font-family: timer;
-        top: 20px;
-        left: -30px;
-        font-size: 20px;
-    }
 
 
-    .headimg, .timer, .date {
-        padding: 0px;
-        position: relative;
-
-
-    }
+@media (max-width: 800px) {
     
-
-
-    // z-index: 1000; /* Ensure the navbar stays on top of other elements */
-    // padding: 0px; /* Add some horizontal padding */
+    .headimg{
+        opacity: 0%;
+    }
+    .imgphone{
+        position: absolute;
+        height: 45px;
+        top: 10px;
+    }
+    .timer{
+        font-family: 'Regular';
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .date{
+        opacity: 0%;
+    }
 }

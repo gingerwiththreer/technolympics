@@ -1,55 +1,94 @@
 @font-face {
-    font-family: Regular;
+    font-family: 'Regular';
     src: url(./HelveticaNeueHv.ttf);
   }
   
-.nav{
-    font-family: Regular;
+  .nav {
+    font-family: 'Regular';
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 200px 0px 30px 40px;
+    padding: 200px 0 30px 40px;
     height: 100%;
     box-sizing: border-box;
-    .body{
-        display: flex;
-        gap: 25px;
-        flex-direction: column;
-        .linkContainer{
-            perspective: 120px;
-            perspective-origin: bottom;
-        }
 
-        a {
-            text-decoration: none;
-            color: rgb(164, 157, 157);
-            font-size: 35px;
-            
-        }
-        a:hover {
-            // text-decoration: none;
-            color: rgb(255, 255, 255);
-            font-size: 35px;
-            
-        }
-    }
-    .footer{
-        
-        display: flex;
-        flex-wrap: wrap;
-        a{
-            text-decoration: none;
-            width: 50%;
-            margin-top: 25px;
-            color: rgb(175, 167, 167);
-            text-underline-offset: 80% ;
-        }
-        a:hover {
-            width: 50%;
-            margin-top: 25px;
-            color: rgb(255, 255, 255);
-        }
-        
+  }
+  
+  .nav .body {
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+  }
+  
+  .nav .body .linkContainer {
+    perspective: 120px;
+    perspective-origin: bottom;
+  }
+  
+  .nav .body a {
+    text-decoration: none;
+    color: rgb(207, 193, 193);
+    font-size: 35px;
+    transition: color 0.3s;
+  }
+  
+  .nav .body a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  .nav .footer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .nav .footer a {
+    text-decoration: none;
+    width: 50%;
+    margin-top: 25px;
+    color: rgb(175, 167, 167);
+    text-underline-offset: 80%;
+  }
+  
+  .nav .footer a:hover {
+    color: rgb(255, 255, 255);
+  }
+  
+  /* Mobile Optimization */
+  @media (max-width: 800px) {
+    .nav {
+      padding: 100px 20px 20px 20px;
     }
     
-}
+    .nav .body {
+      gap: 15px;
+    }
+  
+    .nav .body a {
+      font-size: 25px;
+    }
+  
+    .nav .footer a {
+      width: 100%;
+      margin-top: 10px;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    .nav {
+      padding: 120px 10px 10px 10px;
+    }
+  
+    .nav .body a {
+      font-size: 25px;
+    }
+  
+    .nav .footer a {
+      width: 100%;
+      margin-top: 10px;
+    }
+    .footer{
+        font-size: 20px;
+    }
+  }
+  
