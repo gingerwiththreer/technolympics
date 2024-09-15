@@ -28,11 +28,11 @@ export const links = [
     },
     {
         title: "Core Team",
-        href: "https://instagram.com/gingerrr.psd",
+        href: "/",
         target: "_blank"
     },
     {
-        title: "Brochure↗",
+        title: "Brochure",
         href: "https://7df9a428-af3e-40ef-a5eb-f8a75223fba4.filesusr.com/ugd/df8c76_96a2f1ffefc04f55a3858cc3248d9d54.pdf",
         target: "_blank"
     },
