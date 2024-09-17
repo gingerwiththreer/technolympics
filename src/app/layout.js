@@ -4,6 +4,9 @@ import Header from '../components/Header';
 import Header2 from '../components/Header2';
 import Herodiv from '../components/Herodiv';
 import Intro from '../components/Intro';
+import Bento from '../components/Events/Bento';
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -11,6 +14,9 @@ export const metadata = {
   title: 'Technolympics2024',
   description: '22nd Oct, 2024',
 }
+
+
+
 
 export default function RootLayout({ children }) {
   return (
@@ -21,8 +27,11 @@ export default function RootLayout({ children }) {
         <Herodiv />
         <Header />
         <Intro />
+        <Bento />
+
         {children}
       </body>
     </html>
   )
 }
+

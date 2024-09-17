@@ -36,7 +36,6 @@ const Intro = () => {
 
         
         <div className={styles.container}>
-            <img className={styles.imgsep} src="https://pbs.twimg.com/media/GXWNHvIWkAAHnfM?format=png&name=medium" />
           {['THE INFOTECH DEPARTMENT', 'OF', 'CAMBRIDGE SCHOOL NOIDA', 'IS BACK WITH', '13TH EDITION OF', 'TECHNOLYMPICS'].map((text, index) => (
             <h1
               key={index}
