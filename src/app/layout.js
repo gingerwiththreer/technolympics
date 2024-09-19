@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Header2 from '../components/Header2';
 import Herodiv from '../components/Herodiv';
 import Intro from '../components/Intro';
-import Bento from '../components/Events/Bento';
+// import Bento from '../components/Events/Bento';
 
 
 
@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         <Herodiv />
         <Header />
         <Intro />
-        <Bento />
+        {/* <Bento /> */}
 
         {children}
       </body>
