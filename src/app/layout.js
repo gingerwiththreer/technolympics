@@ -4,7 +4,7 @@ import Header from '../components/Header';
 import Header2 from '../components/Header2';
 import Herodiv from '../components/Herodiv';
 import Intro from '../components/Intro';
-// import Bento from '../components/Events/Bento';
+import ScrollAnimation from '../components/Events';
 
 
 
@@ -27,7 +27,10 @@ export default function RootLayout({ children }) {
         <Herodiv />
         <Header />
         <Intro />
-        {/* <Bento /> */}
+        <div className="events">
+          <img className="img" src="https://pbs.twimg.com/media/GX_sAy1XkAAMihR?format=png&name=small" alt="Event" />
+        </div>
+        <ScrollAnimation />
 
         {children}
       </body>
