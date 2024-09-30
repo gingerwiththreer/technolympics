@@ -123,6 +123,7 @@
 @media (max-width: 1000px) {
 
   .container{
+    overflow: hidden;
     position: relative;
     top: -100px;
   }
