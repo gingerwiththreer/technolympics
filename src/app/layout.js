@@ -1,7 +1,7 @@
 // "use client";
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Link from 'next/link'; 
+// import Link from 'next/link'; 
 import Header from '../components/Header';
 import Header2 from '../components/Header2';
 import Herodiv from '../components/Herodiv';
