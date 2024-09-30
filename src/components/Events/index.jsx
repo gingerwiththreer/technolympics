@@ -151,7 +151,7 @@ export default function ScrollAnimation() {
               let progress = self.progress
               let newHeight = 150 + 300 * progress
               gsap.to(service, {
-                height: newHeight + "px",
+                height: `${newHeight}px`,
                 duration: 0.1,
                 ease: "none",
               })
@@ -182,7 +182,7 @@ export default function ScrollAnimation() {
       <section className={styles.services} ref={servicesRef}>
         <div className={styles.servicesHeader}>
           <div className={styles.col}></div>
-          <div className={styles.col}><h1>EVENTS</h1></div>
+          {/* <div className={styles.col}><h1>EVENTS</h1></div> */}
         </div>
 
         {events.map((event, index) => (

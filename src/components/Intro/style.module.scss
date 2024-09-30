@@ -11,9 +11,11 @@
     align-items: flex-start;
     height: 200vh;
     z-index: -2;
+    overflow: hidden;
     
 
     .text {
+        overflow: hidden;
         background-color: #e9e8ef;
         font-size: 10vw;
         letter-spacing: -.01em;

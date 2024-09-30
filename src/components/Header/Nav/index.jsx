@@ -1,48 +1,48 @@
-import styles from './style.module.scss';
-// import { motion } from 'framer-motion';
-import { links, footerLinks } from './data';
-// import { perspective, slideIn } from "./anim";
+import Link from 'next/link'
+import styles from './style.module.scss'
+import { links, footerLinks } from './data'
 
-export default function index() {
+export default function Navbar() {
   return (
-    <div className={styles.nav}>
-       <div className={styles.body}>
-        {
-            links.map(link => {
-                const { title, href, target } = link;
-                return (
-                    <div key={title || href} className={styles.linkContainer}>
-                        <a
-                          href={href}
-                          target={target}
-                        //   variants={perspective}
-                        //   initial="initial"
-                        //   animate="enter"
-                        //   exit="exit"
-                        >
-                            {title}
-                        </a>
-                    </div>
-                )
-            })
-        }
-       </div>
-       <div className={styles.footer}>
-            {
-                footerLinks.map(link => {
-                    const { title, href, target } = link;
-                    return (
-                        <a 
-                            href={href}
-                            target={target}
-                            key={title || href}
-                        >
-                            {title}
-                        </a>
-                    )
-                })
-            }
-       </div>
-    </div>
+    <nav className={styles.nav}>
+      <div className={styles.body}>
+        {links.map((link) => {
+          const { title, href, target } = link
+
+          if (target === "_blank") {
+            return (
+              <div key={title} className={styles.linkContainer}>
+                <a href={href} target={target} rel="noopener noreferrer">
+                  {title}
+                </a>
+              </div>
+            )
+          }
+
+          return (
+            <div key={title} className={styles.linkContainer}>
+              <Link href={href}>
+                {title}
+              </Link>
+            </div>
+          )
+        })}
+      </div>
+
+      <div className={styles.footer}>
+        {footerLinks.map((link) => {
+          const { title, href, target } = link
+          return (
+            <a href={href} target={target} rel="noopener noreferrer" key={title}>
+              {title}
+            </a>
+          )
+        })}
+      </div>
+    </nav>
   )
 }
+
+
+
+

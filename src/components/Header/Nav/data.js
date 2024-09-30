@@ -1,35 +1,14 @@
-// export const links = [
-//     {
-//         title: "Events",
-//         href:"/"
-//     }, 
-
-//     {
-//         title: "Core Team",
-//         href:"/"
-//     }, 
-
-//     {
-//         title: "Brochure",
-//         href: "https://youtube.com"
-//     }, 
-
-//     {
-//         title: "Contact",
-//         href:"/"
-//     }
-// ]
-
+// data.js
 export const links = [
     {
         title: "Events",
-        href: "https://youtube.com",
-        target: "_blank"
+        href: "#events", // This points to your internal Events page
+        target: "_self"  // Internal links should use "_self"
     },
     {
-        title: "Core Team",
-        href: "/",
-        target: "_blank"
+        title: "About Us",
+        href: "#about",
+        target: "_self"
     },
     {
         title: "Brochure",
@@ -38,17 +17,12 @@ export const links = [
     },
     {
         title: "Contact",
-        href: "/",
-        target: "_blank"
-    },
-    // {
-    //     title: "Contact",
-    //     href: "/"
-    // }
-]
+        href: "https://youtube.com",
+        target: "_self"
+    }
+];
 
 export const footerLinks = [
-    
     {
         title: "Instagram",
         href: "https://www.instagram.com/technolympicscsn",
@@ -59,4 +33,4 @@ export const footerLinks = [
         href: "mailto:samrat.choudhary757@gmail.com",
         target: "_blank"
     }
-]
+];

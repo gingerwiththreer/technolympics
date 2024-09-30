@@ -1,0 +1,54 @@
+.footer {
+    display: flex;
+    width: 100%; /* Full width */
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    padding: 2em 0; /* Padding for spacing */
+    position: relative; /* Allows footer to flow with content */
+    top: 1500px;
+  }
+  
+  .left, .right {
+    flex: 1; /* Each section takes up equal space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .sitemap {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+  
+    li {
+      margin-bottom: 10px;
+  
+      a {
+        color: #fff;
+        text-decoration: none;
+        font-size: 25px;
+  
+        &:hover {
+          text-decoration: none;
+          color: rgb(212, 206, 235); /* Underline on hover */
+        }
+      }
+    }
+  }
+  
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video {
+    height: 100vh;          /* Full viewport height */
+    width: auto;            /* Maintain aspect ratio */
+    max-width: 100%;        /* Ensure it doesn't exceed container width */
+    object-fit: contain;    /* Show the entire video without cropping */
+    overflow: hidden;       /* Prevent overflow */
+    position: relative;
+    left: 125px;
+  }
+  

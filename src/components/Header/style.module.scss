@@ -32,14 +32,15 @@
             object-fit: cover; // Ensure the video covers the menu area
             z-index: -1; // Place the video behind other content
             pointer-events: none; // Prevent interaction with the video
-            filter: blur(1px); // Add a subtle blur effect
+            filter: blur(2px); // Add a subtle blur effect
 
         }
 
     }
     
 }
- @media (max-width: 800) {
+@media (max-width: 800) {
+    
     .header{
         position: fixed;
         right: 0px;
