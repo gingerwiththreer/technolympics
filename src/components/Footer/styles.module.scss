@@ -52,3 +52,28 @@
     left: 125px;
   }
   
+
+
+
+  @media (max-width: 800px) {
+    .footer {
+      flex-direction: column; /* Stack content vertically */
+      top: 1200px; /* Reset top positioning */
+    }
+  
+    .left, .right {
+      width: 100%; /* Full width for both sections */
+    }
+  
+    .video {
+      width: 100%;  /* Video takes full width */
+      height: auto; /* Adjust height automatically */
+      left: -50px;      /* Remove any left offset */
+    }
+  
+    .sitemap {
+      margin-bottom: 10em; /* Add some space between the sitemap and the video */
+      text-align: center; /* Center-align the sitemap */
+    }
+  }
+  
