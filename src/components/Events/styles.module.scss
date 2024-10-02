@@ -1,5 +1,6 @@
 .container {
   width: 100%;
+  z-index: -3;
   // height: 100%;
   overflow: hidden; /* This hides both x and y scrollbars */
   box-sizing: border-box;
