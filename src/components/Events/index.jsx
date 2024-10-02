@@ -124,7 +124,7 @@ export default function ScrollAnimation() {
           const imgContainer = service.querySelector(`.${styles.img}`)
 
           gsap.set(imgContainer, { width: "30%" })
-          gsap.set(service, { height: "130px" })
+          gsap.set(service, { height: "150px" })
 
           ScrollTrigger.create({
             trigger: service,
@@ -149,9 +149,9 @@ export default function ScrollAnimation() {
             scrub: true,
             onUpdate: (self) => {
               let progress = self.progress
-              let newHeight = 130 + 230 * progress
+              let newHeight = 150 + 300 * progress
               gsap.to(service, {
-                height: `${newHeight-25}px`,
+                height: `${newHeight}px`,
                 duration: 0.1,
                 ease: "none",
               })

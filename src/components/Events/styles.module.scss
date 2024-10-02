@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  z-index: -3;
   // height: 100%;
   overflow: hidden; /* This hides both x and y scrollbars */
   box-sizing: border-box;
@@ -42,7 +41,7 @@
 }
 
 .serviceInfo {
-  flex: 2;
+  flex: 5;
   width: 100%;
   height: 100%;
   display: flex;
