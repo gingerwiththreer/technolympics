@@ -12,7 +12,7 @@ export const links = [
     },
     {
         title: "Brochure",
-        href: "https://7df9a428-af3e-40ef-a5eb-f8a75223fba4.filesusr.com/ugd/df8c76_96a2f1ffefc04f55a3858cc3248d9d54.pdf",
+        href: "https://drive.google.com/file/d/1QEIuDf56T_zOoeAXAXVs-15180zOc9Cu/view?usp=sharing",
         target: "_blank"
     },
     {
