@@ -13,7 +13,7 @@ const events = [
       title: 'BattleOfBrains',
       image: 'https://i.pinimg.com/564x/7f/40/b2/7f40b21e46f376e504ce2a016176b3a7.jpg',
       classes: 'IX-XII',
-      infoLink: 'https://example.com/battleofbrains'
+      infoLink: 'https://docs.google.com/document/d/1ZY_nO-q5SqneXWJqwPgROoTyTGGpA2zf/edit?usp=sharing&ouid=117717776929169454983&rtpof=true&sd=true'
     },
     {
       title: 'VirtualWarriors',
@@ -31,25 +31,25 @@ const events = [
       title: 'Top Coders',
       image: 'https://preview.redd.it/hyprland-my-first-rice-not-so-bad-right-v0-l1oyuwepzlpd1.png?width=1080&crop=smart&auto=webp&s=26d4770828e9fcbc43de0e6eeda3917e12ac4d17',
       classes: 'IX-XII',
-      infoLink: 'https://example.com/topcoders'
+      infoLink: 'https://docs.google.com/document/d/1D3Y5knADfD2QCYsWJeO4VoVOftlr4NTD8DvUNDFTFWs/edit?usp=sharing'
     },
     {
       title: 'Webolution',
       image: 'https://i.pinimg.com/736x/55/b0/05/55b005dc58a78dbeb8e868e699bf2ef2.jpg',
       classes: 'IX-XII',
-      infoLink: 'https://example.com/webolution'
+      infoLink: 'https://docs.google.com/document/d/1I1ZrlgiNBHE4l5199-7ijPBBe1MgQcawZ6qV075cDoc/edit?tab=t.0'
     },
     {
       title: 'Mission Doodle',
       image: 'https://pbs.twimg.com/media/GX_NCacXwAAY-Ar?format=jpg&name=large',
       classes: 'IX-XII',
-      infoLink: 'https://example.com/missiondoodle'
+      infoLink: 'https://docs.google.com/document/d/1Ugg39LCPhcaOtOekcl4bqT5OzNu_3VNe/edit?usp=sharing&ouid=117717776929169454983&rtpof=true&sd=true'
     },
     {
       title: 'GameCraft',
       image: 'https://i.pinimg.com/564x/7c/8a/6c/7c8a6c9daf7bf45a06cfb9c25a210c21.jpg',
       classes: 'IV-V',
-      infoLink: 'https://example.com/gamecraft'
+      infoLink: 'https://docs.google.com/document/d/18TUFEsApA347RnDCTIPKiBcU7TPT0xqtms2t_z3KXBE/edit?tab=t.0'
     },
     {
       title: 'SlideSage',
@@ -67,31 +67,31 @@ const events = [
       title: 'Pitch Prodigy',
       image: 'https://i.pinimg.com/564x/9f/57/85/9f578565f96cff23b2f790d94a4936a6.jpg',
       classes: 'IX-XII',
-      infoLink: 'https://example.com/pitchprodigy'
+      infoLink: 'https://docs.google.com/document/d/1YOL9Byn5iDwCYeNpK2qBwAkUKpjV1RadtNOixyLKPJA/edit?tab=t.0'
     },
     {
       title: 'Future Tech',
       image: 'https://i.pinimg.com/564x/a0/88/73/a0887393d913a0a2f468e1da3eaa4080.jpg',
       classes: 'IX-XII',
-      infoLink: 'https://example.com/futuretech'
+      infoLink: 'https://docs.google.com/document/d/e/2PACX-1vTbgXCXYsppS1BtjZmElIVEKYAp5IX-rzE8oL9cmFws1V0FVZM38K3vcSK7e0DSRhDRzVwcfP2N2XAw/pub'
     },
     {
       title: 'Cryptex',
       image: 'https://i.pinimg.com/564x/bb/09/04/bb09048e906e75e7ffcc8b11660adcad.jpg',
       classes: 'VI-VIII',
-      infoLink: 'https://example.com/cryptex'
+      infoLink: 'https://docs.google.com/document/d/1_hfE8qmtArCUXDKOFNSW7gye3AQQc5eXXs5rD1KGJfA/edit?usp=sharing'
     },
     {
       title: 'RoboMaze',
       image: 'https://i.pinimg.com/564x/05/bd/fd/05bdfdf6ba84d0e7a6105c7aabda09bc.jpg',
       classes: 'OPEN',
-      infoLink: 'https://example.com/robomaze'
+      infoLink: 'https://docs.google.com/document/d/1yPWy0HM5FI8SH5cxWRy8WoQr88Uee1s8QBMUo31xm2o/edit?usp=sharing'
     },
     {
       title: 'IdeasUnleashed',
       image: 'https://i.pinimg.com/564x/1d/f5/3a/1df53a427f565e67a70f17c5d5f7ee91.jpg',
       classes: 'IX-XII',
-      infoLink: 'https://example.com/ideasunleashed'
+      infoLink: 'https://docs.google.com/document/d/15rI2eODd3PcAEpKEQZAyyskFRr9a6apKLTS-SQ383CU/edit?tab=t.0'
     },
   ]
 
