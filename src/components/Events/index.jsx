@@ -19,7 +19,7 @@ const events = [
       title: 'VirtualWarriors',
       image: 'https://i.pinimg.com/736x/38/cc/72/38cc72708964ad19ee35895ed965339a.jpg',
       classes: 'OPEN',
-      infoLink: 'https://example.com/virtualwarriors'
+      infoLink: ''
     },
     {
       title: 'EWaste Expressions',
@@ -61,7 +61,7 @@ const events = [
       title: 'SnapShot',
       image: 'https://pbs.twimg.com/media/GVZPY07bIAATOOt?format=jpg&name=4096x4096',
       classes: 'VI-VIII',
-      infoLink: 'https://example.com/snapshot'
+      infoLink: 'https://docs.google.com/document/d/1C-oFNlLau0e6ne_y2vmQQUM4EBsDif8MnEsQjMbBVWs/edit?tab=t.0'
     },
     {
       title: 'Pitch Prodigy',
