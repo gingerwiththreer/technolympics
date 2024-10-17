@@ -18,7 +18,7 @@ export const links = [
     {
         title: "Contact",
         href: "https://docs.google.com/document/d/1yy1uqO8HAL7JWHNjoDtgdnIBfNEaWyDATtvZ_9ZBtPI/edit?usp=sharing",
-        target: "_self"
+        target: "_blank"
     }
 ];
 
