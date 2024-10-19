@@ -19,13 +19,13 @@ const events = [
       title: 'VirtualWarriors',
       image: 'https://i.pinimg.com/736x/38/cc/72/38cc72708964ad19ee35895ed965339a.jpg',
       classes: 'OPEN',
-      infoLink: ''
+      infoLink: 'https://docs.google.com/document/d/1ssJC8hUxEjNnQaO7MxYp8tiefDL_HNB360awSo-fuuE/edit?usp=sharing'
     },
     {
       title: 'EWaste Expressions',
       image: 'https://i.pinimg.com/564x/d5/85/d2/d585d28bb3f98239bf069551205535ac.jpg',
       classes: 'VI-VIII',
-      infoLink: 'https://example.com/ewasteexpression'
+      infoLink: 'https://docs.google.com/document/d/1EGdhO-N1_BiPNfjB6Sah4eLv1Er8fhazYyJ9We7gnuM/edit?usp=sharing'
     },
     {
       title: 'Top Coders',
@@ -55,7 +55,7 @@ const events = [
       title: 'SlideSage',
       image: 'https://i.pinimg.com/564x/63/a8/e0/63a8e07d533cf154f310eaa8c328c51b.jpg',
       classes: 'VI-VIII',
-      infoLink: 'https://example.com/slidesage'
+      infoLink: 'https://docs.google.com/document/d/153cQnfPHwal5923Abx6lyljaWl_GO0KPEqEqbpl68Es/edit?usp=sharing'
     },
     {
       title: 'SnapShot',
