@@ -23,7 +23,7 @@ function Header2() {
                 <Countdown targetDate="2024-11-26T00:00:00" /> 
             </div>
             <h1 className={styles.date}>
-                COMING SOON
+                NOVEMBER 26
             </h1>
         </div>
         
