@@ -23,7 +23,7 @@ function Header2() {
                 <Countdown targetDate="2024-11-29T14:00:00" /> 
             </div>
             <h1 className={styles.date}>
-                ENDoFanERA
+                END oF anERA
             </h1>
         </div>
         
