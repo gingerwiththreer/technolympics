@@ -23,7 +23,7 @@ function Header2() {
                 <Countdown targetDate="2024-11-29T14:00:00" /> 
             </div>
             <h1 className={styles.date}>
-                END oF anERA
+                END OF AN ERA
             </h1>
         </div>
         
