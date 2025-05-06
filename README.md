@@ -1,36 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+😅😅🤣🤣🤣😭😭😭☝️☝️☝️
 
-## Getting Started
-
-First, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![5f6623eceaf380ae83c36fdaf458cd16](https://github.com/user-attachments/assets/9fd20611-6bd1-4e4d-822c-0eb44d7ff1ae)
+![7682d3ddfd27741bf2f024305502b94d](https://github.com/user-attachments/assets/d092bdd7-a510-4e52-b596-cbfa50022eb8)
+![e7767ec94edef2df20fb2a96574df4a5](https://github.com/user-attachments/assets/6c22aa98-b7ed-48a6-978b-01a29e62b0c6)
+![da37ed4d7fd2c8c53cc56163cb279d09](https://github.com/user-attachments/assets/8830e6aa-5d2c-40cc-abed-d53b5e1ac0f5)
+![ec09f0ef561261962e2fd8084320b4a6](https://github.com/user-attachments/assets/1191b039-560b-4016-b381-3ed87c87cae1)
+![491013659_2074484493064478_7371855389683578484_n](https://github.com/user-attachments/assets/65075d9f-182c-46ec-b3f3-3233fa475cbd)
