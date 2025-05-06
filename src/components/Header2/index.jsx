@@ -20,7 +20,7 @@ function Header2() {
             <img className={styles.imgphone} src="https://pbs.twimg.com/media/GXgRJWsWoAAPtX0?format=png&name=medium" />
 
             <div className={styles.timer}>
-                <Countdown targetDate="2024-11-29T14:00:00" /> 
+                <Countdown targetDate="2025-12-25T14:00:00" /> 
             </div>
             <h1 className={styles.date}>
                 29 NOV
