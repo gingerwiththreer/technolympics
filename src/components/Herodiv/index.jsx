@@ -14,15 +14,13 @@ import React from 'react'
 // }
 
 function Herodiv() {
-    return (
+    return(
         <div className={styles.herodiv}>
-            <video className={styles.video} autoPlay loop muted>
-                <source src="/videos/finaltrailer.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
+            <img className={styles.heroimg} src="https://cdnb.artstation.com/p/assets/images/images/047/683/563/large/ikhimaz-inshot-20220325-063211217.jpg?1648170514" />
         </div>
     );
 }
+
 
 export default Herodiv;
 
